@@ -1,4 +1,4 @@
-const { testTitle } = require('./testTitle');
+const testTitle = require('./testTitle');
 const github = require('@actions/github');
 const core = require('@actions/core');
 
