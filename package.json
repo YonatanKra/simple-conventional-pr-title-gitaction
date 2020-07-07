@@ -22,12 +22,7 @@
     "@actions/github": "^4.0.0",
     "@commitlint/config-conventional": "^9.0.1",
     "@commitlint/lint": "^9.0.1",
-    "@commitlint/load": "^9.0.1",
-    "typescript": "^3.9.6"
+    "@commitlint/load": "^9.0.1"
   },
-  "devDependencies": {
-    "ts-loader": "^7.0.5",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
-  }
+  "devDependencies": {}
 }
