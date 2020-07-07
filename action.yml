@@ -1,0 +1,5 @@
+name: 'Vonage PR Conventional Commit Linter'
+description: 'Lints PR titles according to conventional commit - fails the CI if doesn''t match'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

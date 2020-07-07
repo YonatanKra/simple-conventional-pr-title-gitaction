@@ -1,0 +1,33 @@
+{
+  "name": "simple-conventional-pr-title-gitaction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YonatanKra/simple-conventional-pr-title-gitaction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YonatanKra/simple-conventional-pr-title-gitaction/issues"
+  },
+  "homepage": "https://github.com/YonatanKra/simple-conventional-pr-title-gitaction#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0",
+    "@commitlint/config-conventional": "^9.0.1",
+    "@commitlint/lint": "^9.0.1",
+    "@commitlint/load": "^9.0.1",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "ts-loader": "^7.0.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
