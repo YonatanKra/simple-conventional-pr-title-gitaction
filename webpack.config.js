@@ -1,9 +1,23 @@
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
     target: 'async-node',
     entry: './src/index.ts',
+    plugins: [
+        new CopyWebpackPlugin(
+            {
+                patterns: [
+                    //Note:- No wildcard is specified hence will copy all files and folders
+                    {
+                        from: 'node_modules/conventional-changelog-conventionalcommits/templates',
+                        to: 'templates'
+                    }
+                ]
+            }
+        )
+    ],
     module: {
         rules: [
             {
@@ -14,7 +28,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: [ '.tsx', '.ts', '.js' ],
+        extensions: ['.tsx', '.ts', '.js'],
     },
     output: {
         filename: 'index.js',
