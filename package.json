@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/YonatanKra/simple-conventional-pr-title-gitaction#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^4.0.0",
     "@commitlint/config-conventional": "^9.0.1",
     "@commitlint/lint": "^9.0.1",
